@@ -1,0 +1,66 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "My Biodata";
+}
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biswajit's Bio</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="logo entry_1 center">
+        <a href="https://mishrabiswajit.github.io/">
+            <img width="200px" src="~/images/profile_pic.png" alt="Profile Picture" />
+        </a>
+    </div>
+
+    <div class="info center cream">
+        <p class="entry_1">
+            Hi There &nbsp<img src="~/images/Hi.gif" width="21" height="19px" /><span id="greet"></span>
+        </p>
+        <p class="entry_2">I'm Biswajit Mishra</p>
+        <p class="entry_3" id="birthday">I am currently 19 yrs old.</p>
+        <p class="entry_4">
+            I am a BCA student studying in Amity University, Ranchi.
+        </p>
+        <p class="entry_5">
+            Time in my watch is <span id="clock" class="grey"></span>.
+        </p>
+        <p class="entry_6">I know C, C++, Python, HTML, CSS and Javascript.</p>
+        <p class="entry_7">
+            <a href="https://github.com/AllProgrammes" target="_blank" class="grey">You can click on me and learn or
+                take
+                help from my git org if you
+                want</a>
+        </p>
+    </div>
+
+    <div class="socials entry center">
+        <p class="cream secondary-heading entry_8">- Reach Me Out - </p>
+        <div class="flex-center">
+            <a class="entry_15" href="https://github.com/mishrabiswajit" target="_blank"><img
+                    src="~/images/github_logo.png" alt="github_logo" /></a>
+            <a class="entry_14" href="https://www.linkedin.com/in/biswajit-mishra-835b31250/" target="_blank"><img
+                    src="~/images/linkedin_logo.png" alt="linkedin_logo" /></a>
+            <a class="entry_13" href="https://www.youtube.com/channel/UCBygi_xCXAHELSiELSrEMzw" target="_blank"><img
+                    src="~/images/youtube_logo.png" alt="youtube_logo" /></a>
+            <a class="entry_12" href="Social_media/anti_social_media.html" target="_blank"><img
+                    src="~/images/instagram_logo.png" alt="instagram_logo" /></a>
+            <a class="entry_11" href="Social_media/anti_social_media.html" target="_blank"><img
+                    src="~/images/facebook_logo.png" alt="facebook_logo" /></a>
+            <a class="entry_10" href="mailto:mishrabiswajit660@proton.me" target="_blank"><img
+                    src="~/images/email_logo.png" alt="email_logo" /></a>
+            <a class="entry_9" href="https://t.me/mishrabiswajit" target="_blank"><img src="~/images/telegram_logo.png"
+                    alt="telegram_logo" /></a>
+        </div>
+    </div>
+    <script src="~/js/site.js"></script>
+</body>
+
+</html>
